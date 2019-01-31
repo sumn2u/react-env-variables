@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+console.log(process.env.REACT_APP_BASE_URL, 'BASE_URL==>')
 class App extends Component {
   render() {
     return (
